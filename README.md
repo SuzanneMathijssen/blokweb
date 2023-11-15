@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw/Rood
 
   #### Je focus:
-  Twijfel nog (meer info nodig over surface plane, maar als ik tijd heb zou ik beide willen doen)
+  Responsive (maar met voldoende tijd ook surface laag)
  
 </details>
 
@@ -36,15 +36,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Starbucks - https://www.starbucks.com
+  Nijntje Museum - https://nijntjemuseum.nl/nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home-pagina 
-  <img src="readme-images/home.png" width="375px" alt="Home-pagina">
+  <img src="readme-images/home.png" width="375px" alt="Home-pagina 1/6">
+  <img src="readme-images/home2.png" width="375px" alt="Home-pagina 2/6">
+  <img src="readme-images/home3.png" width="375px" alt="Home-pagina 3/6">
+  <img src="readme-images/home4.png" width="375px" alt="Home-pagina 4/6">
+  <img src="readme-images/home5.png" width="375px" alt="Home-pagina 5/6">
+  <img src="readme-images/home6.png" width="375px" alt="Home-pagina 6/6">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Menu-pagina
-  <img src="readme-images/menu.png" width="375px" alt="Menu-pagina">
+  <img src="readme-images/over.png" width="375px" alt="Over-pagina 1/3">
+  <img src="readme-images/over2.png" width="375px" alt="Over-pagina 2/3">
+  <img src="readme-images/over3.png" width="375px" alt="Over-pagina 3/3">
  
 </details>
 
