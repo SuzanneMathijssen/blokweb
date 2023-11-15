@@ -48,7 +48,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/home6.png" width="375px" alt="Home-pagina 6/6">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Menu-pagina
+  Over-pagina
   <img src="readme-images/over.png" width="375px" alt="Over-pagina 1/3">
   <img src="readme-images/over2.png" width="375px" alt="Over-pagina 2/3">
   <img src="readme-images/over3.png" width="375px" alt="Over-pagina 3/3">
