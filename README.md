@@ -97,9 +97,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | Filip          | Constant           | Suzanne      |
-  | Paddings       | Header             | Background img  |
-  | Intersection observer? (scrollen)  | Columns             | Blokken    |
-  | en dat ook nog | dit als er tijd is | nog een punt |
+  | Paddings       | Header             | Background   |
+  | Intersection   | Columns            | Blokken      |
   | ...            | ...                | ...          |
 
 
