@@ -98,8 +98,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Filip          | Constant           | Suzanne      |
   | ---            | ---                | ---          |
-  | Paddings       | Header             | Background   |
-  | Intersection   | Columns            | Blokken      |
+  | Paddings       | Header sluit niet aan            | Background image  |
+  | Intersection observer  | Columns (items onder elkaar)            | Pagina opdelen in blokken      |
   | ...            | ...                | ...          |
 
 
