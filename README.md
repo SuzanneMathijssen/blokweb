@@ -70,13 +70,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownhome.jpg" width="375px" alt="breakdown van de hele home pagina">
+
+  <img src="readme-images/breakdownover.jpg" width="375px" alt="breakdown van de hele over pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdownmenu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -106,10 +105,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - position: fixed; voor menu knop
+  - dvh gebruiken
+  - sections aanmaken
+  - .visually-hidden
 
 </details>
 
@@ -129,20 +128,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Filip          | Suzanne            |
+  | ---            | ---                |
+  | Intersection observer | Header laten verdwijnen |
+  | ...            | ...                |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - ul voor tweede sectie
+  - transform pijltjes (tweede sectie)
+  - p in footer li in ul maken
+  - CSS filenames aanpassen
+  - CSS van meer comments voorzien
+  - font face alleen in gezamelijke CSS
+  - CSS secties specifiekere namen geven
+  - colors in Engels
+  - laatste px nog naar em veranderen
+  - Nadenken welke 5 uit de surface plane lijst
+  - div in section veranderen
+  - alt tekst toevoegen aan images
+
+
 
 </details>
 
