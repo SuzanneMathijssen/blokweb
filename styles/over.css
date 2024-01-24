@@ -1,0 +1,279 @@
+/* SURFACE LAAG: DARK MODE */
+@media (prefers-color-scheme:dark) {
+    h1 {
+        color: var(--white) !important;
+    }
+    
+    h2 {
+		color: var(--white) !important;
+	}
+
+	p {
+		color: var(--white) !important;
+	}
+
+    a {
+        color: var(--white) !important;
+    }
+}
+
+/* groene vlak */
+section:nth-of-type(1) {
+    position: relative;
+    
+    min-height: 25em;
+    margin: 0;
+
+    background-image: url("../images/nijntjeboekjes.webp");
+    background-position: top center;
+	background-size: cover;
+	border-radius: var(--section-border-radius);
+}
+
+/* h1 "over het museum" */
+h1 {
+    position: absolute;
+    bottom: .5em;
+    left: .5em;
+    
+    margin: 0;
+
+    font-size: 3.5em;
+    text-transform: var(--kleineletters);
+}
+
+/* witte vlak (rest vd pagina) */
+section:nth-of-type(2) {
+    position: relative;
+    
+    min-height: 112em;
+    margin: 0;
+
+    background-color: var(--yellow);
+	border-radius: var(--section-border-radius);
+    
+    color: var(--black);
+}
+
+/* inleiding in grote letters */
+section:nth-of-type(2) p:first-of-type {
+    position: absolute;
+    top: 2em;
+    left: .8em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: 2em;
+    color: var(--black);
+}
+
+/* list met stacked images */
+section:nth-of-type(2) ul {
+    position: absolute;
+    top: 20em;
+
+    display:grid;
+    margin:0;
+	padding:0;
+
+	list-style:none;
+}
+
+/* items in list */
+section:nth-of-type(2) ul li {
+    grid-column-start:1;
+	grid-row-start:1;
+	
+	border-radius:2em;
+	
+	transition:1s;
+}
+
+/* stacked images */
+section:nth-of-type(2) ul li img {
+    position: absolute;
+    top: 7em;
+    left: 2.7em;
+    
+    display:block;
+    height: 30em;
+    margin: 0;
+
+    border-radius: 2em;
+}
+
+/* verdwijnende image */
+ul li.weg {
+    rotate:-10deg;
+	translate:-115vw;
+}
+
+/* verschijnen/verdwijnen van buttons */
+.hide {
+	display:none;
+}
+
+/* pijl buttons fotoslider */
+section button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 4.5em;
+   height: 4.5em;
+
+   background-color: var(--white);
+   border: none;
+   border-radius: 2.5em;
+}
+
+/* next pijl button */
+section:nth-of-type(2) button:first-of-type {
+    position: absolute;
+    top: 49em;
+    left: 26.2em;
+}
+
+/* previous pijl button */
+section:nth-of-type(2) button:nth-of-type(2) {
+    position: absolute;
+    top: 49em;
+    left: 5.2em;
+
+    transform: scalex(-1); /* bron: study tonight - https://www.studytonight.com/css-howtos/how-to-flip-image-with-css#:~:text=The%20transform%3A%20scalex(%2D1,flipped%20to%20its%20mirror%20image */
+}
+
+/* inleiding in kleine letters */
+section:nth-of-type(2) p:nth-of-type(2) {
+    position: absolute;
+    bottom: 30em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
+
+/* alle kleine kopjes op de pagina */
+h2 {    
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+}
+
+/* kopje "organisatie" */
+h2:first-of-type {
+    position: absolute;
+    bottom: 26.5em;
+    left: 1em;
+    right: 1em;
+}
+
+/* paragraaf "organisatie" */
+section:nth-of-type(2) p:nth-of-type(3) {
+    position: absolute;
+    bottom: 25em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
+
+/* kopje "met dank aan" */
+h2:nth-of-type(2) {
+    position: absolute;
+    bottom: 21.5em;
+    left: 1em;
+    right: 1em;
+}
+
+/* paragraaf "met dank aan" */
+section:nth-of-type(2) p:nth-of-type(4) {
+    position: absolute;
+    bottom: 15em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
+
+/* kopje "meer info" */
+h2:nth-of-type(3) {
+    position: absolute;
+    bottom: 11.5em;
+    left: 1em;
+    right: 1em;
+}
+
+/* paragraaf "nijntje.nl" */
+section:nth-of-type(2) p:nth-of-type(5) {
+    position: absolute;
+    bottom: 11.2em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
+
+/* paragraaf "centraalmuseum.nl" */
+section:nth-of-type(2) p:nth-of-type(6) {
+    position: absolute;
+    bottom: 8.8em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
+
+/* paragraaf "Foto's Dick Bruna" */
+section:nth-of-type(2) p:nth-of-type(7) {
+    position: absolute;
+    bottom: 7.5em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
+
+/* paragraaf "Overige fotografie" */
+section:nth-of-type(2) p:nth-of-type(8) {
+    position: absolute;
+    bottom: 3.8em;
+    left: 1em;
+    right: 1em;
+    
+    margin: 0;
+
+    font-size: var(--overpagina-tekst-font-size);
+    font-family: var(--straight);
+    text-transform: none;
+    color: var(--black);
+}
